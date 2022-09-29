@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "merryls",
+    "slug": "merryls",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/A_New_Design_-_Made_with_PosterMyWall__3_-removebg-preview.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/A_New_Design_-_Made_with_PosterMyWall__3_-removebg-preview.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/A_New_Design_-_Made_with_PosterMyWall__3_-removebg-preview.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.mcshelton.merryls"
+    },
+    "web": {
+      "favicon": "./assets/A_New_Design_-_Made_with_PosterMyWall__3_-removebg-preview.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f6c68c4-f4c2-44f8-ae4b-1c2ea9941b2c"
+      }
+    }
+  }
+}
