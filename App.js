@@ -38,6 +38,10 @@ export default function App() {
     }).then((res)=>{
       alert(res.data)
       setLoading(false)
+      setName('')
+      setPhoneNum('')
+      setLocation('')
+      setItem('')
     }).catch(()=>{
       alert('Error, Check network connection')
       setLoading(false)
